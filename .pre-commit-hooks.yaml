@@ -354,3 +354,9 @@
   entry: check-database-casing-consistency
   language: python
   always_run: true
+- id: amplify-check-model-name-contract
+  name: Check model name contract
+  description: Check model name abides to contract.
+  entry: amplify-check-model-name-contract
+  language: python
+  types_or: [sql]
